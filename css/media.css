@@ -195,8 +195,7 @@
 }
 
 
-@media (max-width: 768px){
-
+@media (max-width: 768px){  
 
 }
 
@@ -353,6 +352,10 @@
     
     .nav__list{
         gap: 30px;
+    }
+
+    .footer__goods{
+        align-items: center;
     }
 }
 @media(max-width: 325px){
