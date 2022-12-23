@@ -30,6 +30,21 @@
 
     .last_news__boxes{
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .left_box{
+        align-items: center;
+        text-align: center;
+    }
+
+    .right_box{
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_content{
+        padding: 20px;
     }
 
     .watch__collection{
@@ -41,9 +56,27 @@
     .section__title{
         height: 100%;
     }
+
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .watch__collection{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media (max-width: 992px){
+
+    .right_box{
+        padding: 0;
+    }
+    .left_box{
+        padding: 0;
+    }
+
     .last_news__boxes{
         justify-content: center;
         align-items: center;
@@ -67,8 +100,6 @@
         border-bottom: 2px solid white;
     }
     
-
-
 
     .footer__list{
         align-items: center;
@@ -109,15 +140,116 @@
         align-items: center;
     }
 
+
+    .item{
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .watch__collection_gender{
+        font-size: 16px;
+    }
+
+    .watch__collection_name{
+        font-size: 18px;
+    }
+    .watch__collection_price{
+        font-size: 14px;
+    }
+
+    .item::before{
+        width: 90px;
+        font-size: 18px;
+    }
+
+    .section__title{
+        font-size: 26px;
+    }
+
+    .last_news__title{
+        font-size: 26px;
+    }
+
+    .more a{
+        font-size: 24px;
+    }
+
+    .left_box__date{
+        justify-content: center;
+    }
+
+    .right_box__date{
+        justify-content: center;
+    }
+
+    .header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .one__texts{
+        align-items: center;
+    }
+
+
 }
 
 
 @media (max-width: 768px){
 
+
 }
+
+
 @media (max-width: 576px){
     .nav__list{
         flex-direction: column;
+    }
+
+    .header__boxes::before{
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .item::before{
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .watch__collection_gender{
+        font-size: 16px;
+    }
+
+    .watch__collection_price{
+        font-size: 14px;
+    }
+
+    .item{
+        padding: 5px;
+        gap: 2px;
+    }
+    .item img{
+        width: 40%;
+    }
+
+    .header__boxes img{
+        width: 40%;
+    }
+
+    .one__texts{
+        gap:6px;
+    }
+
+    .right_box__text{
+        padding: 10px;
+    }
+
+    .watch__collection_name{
+        font-size: 16px;
+    }
+
+    .section__title{
+        font-size: 20px;
     }
 
     .footer__list{
@@ -131,7 +263,8 @@
     .left_box__title{
         width: 100%;
         font-size: 15px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+        padding: 15px;
     }
 
     .left_box__text{
@@ -156,7 +289,8 @@
     .right_box__title{
         width: 100%;
         font-size: 15px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+        padding: 15px;
     }
 
     .right_box__text{
@@ -168,13 +302,13 @@
     }
 
     .left_box::before{
-        left: 45%;
+        left: 40%;
         font-size: 12px;
         width: 70px;
         height: 30px;
     }
     .right_box::before{
-        left: 50%;
+        left: 40%;
         font-size: 12px;
         width: 70px;
         height: 30px;
@@ -222,6 +356,23 @@
     }
 }
 @media(max-width: 325px){
+
+    .header__boxes::before{
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .item::before{
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .section__title{
+        font-size: 20px;
+    }
+
     .header__box{
         display: flex;
         flex-direction: column;
