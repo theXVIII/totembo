@@ -81,7 +81,6 @@
     height: 618px;
     display: grid;
     grid-template-columns: minmax(305px, 526px) minmax(305px, 746px);
-    grid-template-rows:  ;
     column-gap: 24px;
     row-gap: 30px;
     grid-template-areas: 'one two'
@@ -225,18 +224,14 @@
     width: 100%;
     max-width: 1296px;
     height: 2060px;
-    display: grid;
     row-gap: 40px;
     column-gap: 24px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    display: grid;
+    grid-template-columns: minmax(320px, 416px) minmax(320px, 416px) minmax(320px, 416px);
+    grid-template-rows: repeat(4, 485px);
     grid-template-areas: 'a b c'
-                         'a b c'
-                         'd e f'
                          'd e f'
                          'g h i'
-                         'g h i'
-                         'j k l'
                          'j k l';
 }
 
